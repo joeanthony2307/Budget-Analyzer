@@ -1,0 +1,21 @@
+# Ignore all CSV files in the data folders
+# This ensures that data is private
+data/raw/*.csv
+data/processed/*.csv
+!data/raw/sample_transactions.csv
+
+# Ignore the folders Python creates
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.env
+
+# macOS system files
+.DS_Store
+
+# VS Code settings
+.vscode/

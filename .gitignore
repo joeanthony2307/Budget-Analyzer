@@ -2,7 +2,7 @@
 # This ensures that data is private
 data/raw/*.csv
 data/processed/*.csv
-!data/raw/sample_transactions.csv
+!data/raw/sample.csv
 
 # Ignore the folders Python creates
 __pycache__/
